@@ -12,8 +12,8 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <smooks.version>2.0.0-M3-SNAPSHOT</smooks.version>
-        <smooks.edifact.cartridge.version>2.0.0-M3-SNAPSHOT</smooks.edifact.cartridge.version>
-        <spring.version>5.2.5.RELEASE</spring.version>
+        <smooks.edifact.cartridge.version>2.0.0-M3</smooks.edifact.cartridge.version>
+        <spring.version>5.3.5</spring.version>
     </properties>
 
     <modules>
@@ -76,7 +76,7 @@
             <dependency>
                 <groupId>org.xmlunit</groupId>
                 <artifactId>xmlunit-core</artifactId>
-                <version>2.8.1</version>
+                <version>2.8.2</version>
             </dependency>
             <dependency>
                 <groupId>hsqldb</groupId>
@@ -96,7 +96,7 @@
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter-engine</artifactId>
-                <version>5.7.0</version>
+                <version>5.7.1</version>
                 <scope>test</scope>
             </dependency>
             <dependency>
