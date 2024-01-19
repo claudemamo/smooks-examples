@@ -74,6 +74,7 @@
         <module>yaml-to-java</module>
         <module>pipelines</module>
         <module>cross-domain-solution</module>
+        <module>xml-to-edifact-override</module>
     </modules>
 
     <dependencyManagement>
